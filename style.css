@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cards {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center; 
+}
+
+.card {
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+} 
